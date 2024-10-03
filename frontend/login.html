@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="boxicons.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2 class="logo-text"><span>Lakshmi</span>Blogs</h2>
+      </div>
+      <i class="menu-toggle bx bx-menu-alt-right"></i>
+      <ul class="nav">
+        <li>
+          <a href="#">Home</a>
+          <!-- <ul style="left: 0px;">
+                <li><a href="#">Landing page</a></li>
+                <li><a href="#">Teams</a></li>
+            </ul> -->
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <!-- <li><a href="#">Signup</a></li>
+        <li><a href="#">Login</a></li> -->
+        <li>
+          <a href="#">
+            <i class="bx bxs-user"></i>
+            Lakshmipade
+            <i class="bx bxs-chevron-down"></i>
+          </a>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" class="logout">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+    <div class="auth-content">
+        <form action="login.html" method="post">
+            <h2 class="form-title">Login</h2>
+            <hr>
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" class="txt-input" placeholder="Your Name">
+            </div>
+            
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" class="txt-input" placeholder="Password">
+            </div>
+           <div class="submit-btn">
+            <button type="submit" name="register-btn" class="btn btn-big">Login</button>
+            <p>Already Registered? <a href="register.html">Register</a></p>
+           </div>
+           
+        </form>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3 class="logo-text"><span>Lakshmi</span>Blogs</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            necessitatibus molestiae excepturi ipsam reprehenderit nostrum
+            voluptate dolore accusantium maiores! Totam veritatis laboriosam
+            omnis voluptatibus minima officiis culpa odio, quidem sed.
+          </p>
+          <div class="contacts">
+            <span><i class="bx bx-phone">&nbsp; 123-456-789</i></span>
+            <span><i class="bx bx-envelope">&nbsp; info@gmail.com</i></span>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.twitter.com"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <a href="#"><li>Events</li></a>
+            <a href="#"><li>Team</li></a>
+            <a href="#"><li>Mentors</li></a>
+            <a href="#"><li>Gallery</li></a>
+            <a href="#"><li>Terms & Conditions</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-section company">
+          <h3>Company</h3>
+          <ul>
+            <a href="#"><li>StartUp</li></a>
+            <a href="#"><li>Careers</li></a>
+            <a href="#"><li>Blogs</li></a>
+            <a href="#"><li>Vacany</li></a>
+            <a href="#"><li>Terms & Conditions</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-section contact-form">
+          <h3>Contact us</h3>
+          <br />
+          <form action="index.html">
+            <input
+              type="email"
+              name="email"
+              class="text-input contact-input"
+              placeholder="email@gmail.com"
+            />
+            <textarea
+              rows="4"
+              name="message"
+              id=""
+              class="text-input contact-input"
+              placeholder="Your Mesaage........"
+            ></textarea>
+            <button type="submit" class="btn btn-big contact-btn">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; lakshmipade.com | Designed by LakshmiPade
+      </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- slick carousel -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
